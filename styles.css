@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body {
+    background-image: url(img/coracao.jpg);
+    backdrop-filter: brightness(35%);
+    margin: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-width:200px;
+    max-width: 700px;
+    border: 2px solid black;
+}
+
+article {
+    background-color: aliceblue;
+    min-width: 200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+ article h1 {
+    font-size: 60px;
+    font-family: "Seaweed Script", cursive;
+ }
+
+ article p {
+    font-family: "Madimi One", sans-serif;
+ }
